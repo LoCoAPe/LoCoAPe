@@ -34,9 +34,7 @@ LoCoAPe is a user-friendly low-code tool that grants teachers and educational ad
 
 __Requirements__: Java 8 or higher must be installed.
 
-Unzip LoCoAPE and run LoCoAPE:
-
-https://github.com/LoCoAPe/tool/assets/16683876/bf58b62e-8045-49dd-975a-055f1f98d243
+Unzip LoCoAPE and run LoCoAPE executable
 
 [(top)](#top)
 
@@ -72,19 +70,27 @@ This case study shows how educators can use the ready-to-use "Predict Mark" and 
 
 1. Create a high-level workflow consisting of the following elements: one Predict Marks, one Remove Attributes, two Dataset (Input), one Record (Input), and establish the necessary connections.
 
-https://github.com/LoCoAPe/tool/assets/16683876/a0d8dcc5-3eeb-489b-80b3-6fe2daf35a8e
+
+https://github.com/LoCoAPe/tool/assets/138053199/02d1c435-c813-4f2f-b030-01b85b96269a
+
 
 2. Rename and configure the Dataset inputs and configure the Record input to remove the relevant dataset attributes.
 
-https://github.com/LoCoAPe/tool/assets/16683876/037f8297-46cf-49f6-b2c9-42d1d05f498b
+
+https://github.com/LoCoAPe/tool/assets/138053199/726cc8be-8d1a-4f47-994d-723969f294b2
+
 
 3. Add and connect the Dataset (Output) to store the resulting prediction.
 
-https://github.com/LoCoAPe/tool/assets/16683876/7735d7b3-c729-4695-a5f5-82d12004ea5e
+
+https://github.com/LoCoAPe/tool/assets/138053199/49f0a207-9043-4a8a-b41c-fc97f771fb49
+
 
 4. Execute the workflow, examine the sub-workflows, and display the outputs.
 
-https://github.com/LoCoAPe/tool/assets/16683876/eea27238-7247-4b52-8b82-6e2718a8998b
+
+https://github.com/LoCoAPe/tool/assets/138053199/50110644-1760-453a-80ab-5896db60514b
+
 
 __Results__: [ARFF](./case-studies/req1_1/predictions/exam_performance_prediction.arff)
 
@@ -123,37 +129,37 @@ This case study illustrates how data experts can modify the configuration of the
 1. Add the Predict Mark element to the workflow and navigate to its source workflows. Then, navigate to the Generate Numeric Predictor sub-workflow to change the default behavior.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/fcb57914-6379-4ec9-a8ce-df4fad349316
+https://github.com/LoCoAPe/tool/assets/138053199/911dadd7-6392-4e38-bd29-732f2bce094d
 
 
 2. Remove Simple Linear Regression and add the following elements: Normalize in Range (with ignoreClass to true) and SVR. Then, connect the corresponding elements to define the new behavior. Save the changes to confirm the new behavior and go to the parent workflow.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/4e508cb6-1b55-46c0-b239-31cde91a7132
+https://github.com/LoCoAPe/tool/assets/138053199/b33d3dde-af4b-45e2-81d1-0217b4ac8aab
 
 
 3. Reconnect the modified element. Then add and connect Evaluate Prediction and Metrics (Output). Then, save the changes and go to the parent workflow. Now, Predict Mark provides a new output corresponding to the metrics.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/7c45882b-4ca6-42f7-8f82-aa0b0e74e889
+https://github.com/LoCoAPe/tool/assets/138053199/e917f40c-bf40-4875-9b06-5e048f1fe3c7
 
 
 4. Add a Dataset (Input), a Record (Input) and Remove Attributes. Then configure the input to the following value: 1,2,4-6,9-12,16-23,31,32. Then, connect the elements.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/f1348877-8dea-4187-9a7f-9158656e43b2
+https://github.com/LoCoAPe/tool/assets/138053199/2b864244-9fc2-4a8e-94a8-8d9f29c3f896
 
 
 5. Add, connect and configure a Dataset (Input), a Dataset (Output), and one Metrics (Output).
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/01c61733-5405-4702-9dc9-e449f89b4b4a
+https://github.com/LoCoAPe/tool/assets/138053199/8b296cda-4329-4c56-bde3-c0675e8720c9
 
 
 6. Configure inputs and outputs. Then execute the workflow, inspect the sub-workflows and display the outputs.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/83607e62-14a8-4afa-9faf-e5fb3da148c1
+https://github.com/LoCoAPe/tool/assets/138053199/a510b0ca-38eb-4cb9-9acf-ff4709602621
 
 
 __Results__: [ARFF](./case-studies/req1_2/predictions/student-por_predictions_svr.arff)
@@ -198,19 +204,19 @@ This case study aims to demonstrate how educators can easily predict passes and 
 1. Create a high-level workflow with the following elements: one Predict Passes and Fails, two Dataset (Input), one Dataset (Output), and the corresponding connections.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/67f464ab-8bb9-4c04-80d4-509807e04921
+https://github.com/LoCoAPe/tool/assets/138053199/040f4f4b-cc67-43ba-895f-8af5de108d3f
 
 
 2. Configure the inputs and outputs to load the datasets and store the prediction.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/d3fc4fb9-5b23-4c7b-b328-781c5807ce5c
+https://github.com/LoCoAPe/tool/assets/138053199/d0aab834-129c-464a-8d47-79e941b9e55a
 
 
 3. Execute the workflow, inspect the sub-workflows and display the outputs.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/6b7cd713-f7b8-4258-819b-a600bc9e9858
+https://github.com/LoCoAPe/tool/assets/138053199/09fd7c2e-2189-4790-af96-0d35ea946e22
 
 
 __Results__: [ARFF](./case-studies/req2_1/predictions/kalboard360_prediction.arff)
@@ -249,36 +255,38 @@ __Results__: [ARFF](./case-studies/req2_1/predictions/kalboard360_prediction.arf
 
 1. Add the Predict Passes and Fails element to the workflow and navigate to its source workflows. Then, navigate to the Generate Predictor sub-workflow to change the default behavior
 
-https://github.com/LoCoAPe/tool/assets/16683876/a73d0d01-4b13-44f6-a8e8-6dc1f1e0eba9
+
+https://github.com/LoCoAPe/tool/assets/138053199/bc6fd49b-7248-4545-993e-dc6c77e53c79
+
 
 2. Remove J48 and add JRip. Then configure JRip with the attribute “prune” to false, save the changes to confirm the new behavior and go to the parent workflow. 
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/9b4299e2-05fe-4d5e-b273-c91b8d4effd9
+https://github.com/LoCoAPe/tool/assets/138053199/42768d6e-75d7-4a94-a785-baa2a3997da9
 
 
 3. Reconnect the modified Generate Predictor and go to the parent workflow. 
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/680dccb7-cd7c-4827-8c7f-20fa7a793235
+https://github.com/LoCoAPe/tool/assets/138053199/e34c2271-04ef-4f4d-8d2d-e15dcb17d09f
 
 
 4. Add the following elements: two Dataset (Input), one Dataset (Output), two Record (Input), Integrate Datasets, Remove Attributes, and Remove Missing Values. Then connect the corresponding elements. 
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/8840a0e5-f6fe-476a-b300-1b345e5165ab
+https://github.com/LoCoAPe/tool/assets/138053199/667561d4-ef2d-4fcd-8182-f8dbf75a2c6c
 
 
 5. Configure the new inputs with the following values: id_student for the input of Integrate Datasets, and 1 for the input of Remove Attributes.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/66d29975-58c4-482b-927a-df264739406c
+https://github.com/LoCoAPe/tool/assets/138053199/31a08a60-60d7-4702-919d-c741130d7750
 
 
 6. Execute the workflow, inspect the sub-workflows and display the outputs.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/f13fde1e-03f2-4145-8f99-1258628235c8
+https://github.com/LoCoAPe/tool/assets/138053199/757cc757-1787-4639-b7b8-989e0209f465
 
 
 __Results__: [ARFF](./case-studies/req2_2/predictions/oulad_predictions.arff)
@@ -318,13 +326,13 @@ The dataset Computer Programming contains information regarding the scores of st
 1. Add the Predict Passes and Fails - Early element to the workflow and navigate to its source workflows to change the default behavior. Then, navigate to each Predict Passes and Fails to change the ID3 element by J48. Finally, save, reconnect elements and go to the parent workflow.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/d15ab3ec-d867-46b3-ac88-4450116090df
+https://github.com/LoCoAPe/tool/assets/138053199/f27c61d7-e61e-4b14-8af7-f155358ab598
 
 
 2. Add the following set of preprocessing tasks to each Predict Passes and Fails task: Remove Attributes, Clean Data and Categorize Attribute, with the corresponding Record (Input). Then, connect all elements to define the new behavior.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/52b4a613-90cd-4f2e-bdb4-54fdfb962524
+https://github.com/LoCoAPe/tool/assets/138053199/731a678c-991a-47b5-bc04-9ad3bbddef41
 
 
 3. Rename the inputs and save the changes. Then configure Categorize Attribute as follows:
@@ -333,14 +341,13 @@ https://github.com/LoCoAPe/tool/assets/16683876/52b4a613-90cd-4f2e-bdb4-54fdfb96
   + Finally go to the top workflow.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/12a80600-a2d8-4afe-ac78-184e72607446
+https://github.com/LoCoAPe/tool/assets/138053199/f1dd2441-e736-4ccc-85bd-4a1487870c28
 
 
 4. Configure all Dataset inputs and outputs to load and store the datasets. Then, Configure the Record inputs with the value 1 (to remove the student ID). Execute the workflow, inspect the sub-workflows and display the outputs.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/3a7c4385-239d-4136-9d60-f0b53d01ddf0
-
+https://github.com/LoCoAPe/tool/assets/138053199/5455518c-5bb2-4f6d-adc8-60a46aa7848c
 
 
 __Results__: [Begin/ARFF](./case-studies/req3_1/predictions/computer_programming_predictions_begin.arff), [Middle/ARFF](./case-studies/req3_1/predictions/computer_programming_predictions_middle.arff)
@@ -379,19 +386,19 @@ In this case study, the data expert has to work with the Science Course dataset 
 1. Add the Predict Passes and Fails - Early element to the workflow and navigate to its source workflow to change the default behavior. Then, navigate to each Predict Passes and Fails to change the predictor, navigating to Generate Predictor. Then, add Class Balancer and Naive Bayer, and remove ID3 and Discretize Supervised. Finally, save, reconnect elements and go to the parent workflow.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/10107714-d31f-4dfb-8ca4-87ac6aec7943
+https://github.com/LoCoAPe/tool/assets/138053199/c8336844-23d3-4216-b0a1-bc8aec78ed03
 
 
 2. Add two Remove Attributes with the corresponding Record (Input) and Dataset (Input). Then add two Dataset (Input) and two Dataset (Output). Finally connect all elements.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/0294e5f3-a7b3-440b-9416-9b5774c87fe2
+https://github.com/LoCoAPe/tool/assets/138053199/ce6248e9-3567-4ce8-9853-138addb400cc
 
 
 3. Configure all Record inputs, Dataset inputs and outputs to load and store the datasets. Then, execute the workflow, inspect the sub-workflows and display the outputs.
 
 
-https://github.com/LoCoAPe/tool/assets/16683876/e85c80fd-3e49-4fa6-b674-001d54822d58
+https://github.com/LoCoAPe/tool/assets/138053199/155f4e15-3c6b-4ec3-b819-c068b71b8ef9
 
 
 __Results__: [Begin/ARFF](./case-studies/req3_2/predictions/science_course_predictions_begin.arff), [Middle/ARFF](./case-studies/req3_2/predictions/science_course_predictions_middle.arff)
