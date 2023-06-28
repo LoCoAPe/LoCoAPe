@@ -26,9 +26,9 @@ LoCoAPe is a user-friendly low-code tool that grants teachers and educational ad
 
 ### Download LoCoAPe
 
-- Windows version (ZIP)
-- Linux version (ZIP)
-- MacOS version (ZIP)
+- Windows version ([ZIP](https://drive.google.com/file/d/1aHxQUNck-wNACbxht3Y7AxWUmHOzXMlO/view?usp=drive_link))
+- Linux version ([ZIP](https://drive.google.com/file/d/1lxyxzocMvYgD2fJ-2JmJyz1kihLQj5V5/view?usp=drive_link))
+- MacOS version ([ZIP](https://drive.google.com/file/d/1wfZuisSvXGnhtL9zxS76cgnQE4epDAYd/view?usp=drive_link))
 
 ### Installation and execution
 
