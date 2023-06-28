@@ -1,0 +1,32 @@
+SubjectID,Assign6,Assign7,Assign8,Exam1,Major,HighestACT,HighSchoolGPA,At-Risk
+Student28,73.0,88.0,100.0,80.0,Mechanical Engineering,28.0,4.0,No
+Student21,90.0,96.0,98.0,68.67,Non-Matriculated,,,No
+Student31,45.0,35.0,100.0,80.0,Non-Matriculated,,,Yes
+Student4,,,,,,,,Yes
+Student38,85.0,81.0,90.0,80.0,Biology,29.0,,No
+Student22,93.0,100.0,99.0,66.0,Mechanical Engineering,27.0,3.378,Yes
+Student16,90.0,75.0,86.0,86.0,Computer Science,30.0,3.48,No
+Student6,25.0,0.0,84.0,82.0,Mechanical Engineering,26.0,3.89,Yes
+Student2,33.0,37.0,40.0,60.0,Physics,,,Yes
+Student12,79.0,87.5,96.0,76.0,Computer Science,15.0,3.95,No
+Student43,95.0,100.0,100.0,82.0,Statistics,,3.86,No
+Student23,100.0,100.0,100.0,74.0,Physics,28.0,4.0,No
+Student7,100.0,100.0,99.5,90.0,Math/Stats - Comp Teaching,35.0,4.0,No
+Student42,84.0,8.0,92.0,0.0,Preparatory Engineering - ME,21.0,3.707,Yes
+Student36,89.0,100.0,99.0,76.0,Computer Science,29.0,3.453,No
+Student1,99.0,99.0,100.0,90.0,Computer Science,34.0,3.96,No
+Student17,89.0,96.0,100.0,88.0,Statistics,26.0,3.933,No
+Student41,3.0,88.0,0.0,82.0,Environmental Engineering,,,Yes
+Student11,70.0,88.0,45.0,82.0,Non-Matriculated,,,No
+Student25,32.0,93.0,97.0,68.0,Sociology,28.0,3.85,Yes
+Student24,0.0,100.0,99.0,86.0,Mathematics,32.0,4.0,No
+Student15,93.0,86.0,100.0,84.0,Computer Science,25.0,3.83,No
+Student14,,,,,,,,Yes
+Student35,,,,,,,,Yes
+Student30,95.0,100.0,98.0,86.0,Civil Engineering,24.0,3.98,No
+Student40,100.0,100.0,100.0,86.0,Art,34.0,3.969,No
+Student19,95.0,100.0,92.0,78.0,Computer Science,26.0,3.829,No
+Student33,88.0,100.0,100.0,86.0,Mechanical Engineering,32.0,4.0,No
+Student10,95.0,100.0,100.0,88.0,Non-Matriculated,30.0,3.68,No
+Student39,95.0,100.0,98.0,62.67,Computer Science,19.0,3.486,No
+Student29,100.0,100.0,100.0,86.0,Civil Engineering,33.0,4.0,No

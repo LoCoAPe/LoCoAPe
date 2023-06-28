@@ -1,0 +1,29 @@
+@relation computer_programming_target_middle
+
+@attribute Assign6 numeric
+@attribute Assign7 numeric
+@attribute Assign8 numeric
+@attribute Assign9 numeric
+@attribute Assign10 numeric
+@attribute Assign11 numeric
+@attribute Exam1 numeric
+@attribute Exam2 numeric
+@attribute Major {'Preparatory Engineering - ME','Computer Science',Exploratory,'Mechanical Engineering',Statistics,Management,Mathematics}
+@attribute HighestACT numeric
+@attribute HighSchoolGPA numeric
+@attribute At-Risk {Yes,No}
+
+@data
+95,75,87,91,48,97,70,80,'Preparatory Engineering - ME',21,3.54,No
+60,100,94,100,86,96,90,90,'Computer Science',26,3.98,No
+78,89,98,100,79,88,74,80,Exploratory,30,4,No
+73,100,99,0,79,100,82,80,'Computer Science',30,4,No
+63,88,96,58,41,56,74,72,Exploratory,25,3.56,Yes
+70,100,90,92,82,96,86,78,'Computer Science',32,3.73,No
+93,0,100,100,94,100,86,84,'Mechanical Engineering',32,4,Yes
+66,90,94,96,56,97,84,84,Statistics,33,3.92,No
+-50,58.5,93,96,57,74,80,74,'Mechanical Engineering',21,3.859,Yes
+0,89,95,96,92,88,82,86,Management,33,3.74,No
+47,76,78,56,57,66,68,52,'Computer Science',26,3.83,Yes
+90,100,100,97,97,91,90,88,'Computer Science',34,3.95,No
+48,99,100,95,87,88,84,88,Mathematics,30,4,No

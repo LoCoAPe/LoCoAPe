@@ -1,0 +1,101 @@
+@relation courseStudentAssessmentInfo_target
+
+@attribute id_student numeric
+@attribute assessment1752 numeric
+@attribute assessment1753 numeric
+@attribute assessment1754 numeric
+@attribute assessment1755 numeric
+@attribute assessment1756 numeric
+@attribute gender {F,M}
+@attribute region {EastAnglianRegion,NorthWesternRegion,SouthWestRegion,SouthRegion,WestMidlandsRegion,YorkshireRegion,LondonRegion,Scotland,EastMidlandsRegion,NorthRegion,Wales,SouthEastRegion}
+@attribute highest_education {ALevelorEquivalent,LowerThanALevel,HEQualification}
+@attribute imd_band {90-100,30-40,70-80,60-70,0-10,80-90,20-30,40-50,50-60,10-20}
+@attribute age_band {0-35,35-55,More55}
+@attribute num_of_prev_attempts numeric
+@attribute studied_credits numeric
+@attribute disability {Y,N}
+@attribute Class numeric
+
+@data
+2011876,79,71,78,77,75,F,EastAnglianRegion,ALevelorEquivalent,90-100,0-35,0,60,Y,0.971098
+2012966,75,76,78,81,82,M,NorthWesternRegion,LowerThanALevel,30-40,35-55,0,60,N,0.971098
+2051699,62,71,64,67,69,F,SouthWestRegion,LowerThanALevel,70-80,35-55,0,60,N,0.971098
+2062879,56,55,65,65,65,F,EastAnglianRegion,ALevelorEquivalent,60-70,0-35,0,60,N,0.971098
+2080474,88,64,72,60,64,F,SouthRegion,ALevelorEquivalent,90-100,35-55,0,60,N,0.971098
+2083877,72,64,68,60,75,F,WestMidlandsRegion,ALevelorEquivalent,0-10,0-35,0,120,N,0.971098
+2104505,80,69,49,65,65,M,WestMidlandsRegion,LowerThanALevel,0-10,35-55,0,60,N,0.971098
+2122180,86,80,82,79,85,F,NorthWesternRegion,LowerThanALevel,80-90,35-55,0,60,N,0.971098
+2143752,50,56,52,52,53,F,SouthRegion,LowerThanALevel,70-80,35-55,0,60,N,0.971098
+2146792,68,60,78,76,68,M,NorthWesternRegion,HEQualification,20-30,More55,0,60,N,0.971098
+2153153,61,67,71,55,57,F,YorkshireRegion,ALevelorEquivalent,40-50,0-35,0,60,N,0.971098
+2155014,76,64,73,79,77,F,WestMidlandsRegion,LowerThanALevel,80-90,0-35,0,60,Y,0.971098
+2171627,71,67,72,70,65,F,YorkshireRegion,ALevelorEquivalent,30-40,35-55,0,60,N,0.971098
+2182846,65,63,64,70,68,F,LondonRegion,ALevelorEquivalent,70-80,35-55,0,60,N,0.971098
+2194100,64,61,66,80,65,F,EastAnglianRegion,ALevelorEquivalent,50-60,35-55,0,60,N,0.971098
+2197016,75,75,76,76,76,F,NorthWesternRegion,HEQualification,30-40,35-55,0,60,N,0.971098
+2208424,73,57,81,85,60,M,Scotland,ALevelorEquivalent,20-30,0-35,0,60,N,0.971098
+2229865,73,76,75,78,80,F,WestMidlandsRegion,ALevelorEquivalent,10-20,35-55,0,60,N,0.971098
+2268379,80,79,83,87,86,F,EastMidlandsRegion,ALevelorEquivalent,20-30,0-35,0,60,N,0.971098
+2278464,60,50,58,54,35,M,SouthRegion,LowerThanALevel,30-40,35-55,0,60,N,0.971098
+2293923,72,59,52,58,65,M,SouthRegion,ALevelorEquivalent,90-100,0-35,0,150,N,0.971098
+2329342,56,54,60,44,72,F,EastAnglianRegion,LowerThanALevel,40-50,35-55,0,120,N,0.971098
+2339528,76,74,84,85,81,F,LondonRegion,LowerThanALevel,40-50,0-35,0,60,N,0.971098
+2342426,70,67,71,78,80,M,YorkshireRegion,LowerThanALevel,20-30,35-55,0,60,N,0.971098
+2364471,90,85,85,85,72,F,Scotland,HEQualification,90-100,0-35,0,60,Y,0
+2367155,63,85,80,86,64,F,EastAnglianRegion,ALevelorEquivalent,80-90,0-35,0,120,N,0.971098
+2369266,50,50,40,57,56,F,LondonRegion,LowerThanALevel,70-80,35-55,0,60,N,0.971098
+2376496,64,72,70,76,85,F,EastMidlandsRegion,ALevelorEquivalent,20-30,0-35,0,120,N,0.971098
+2411661,55,57,40,42,40,F,SouthRegion,ALevelorEquivalent,80-90,0-35,0,120,N,0.971098
+2412002,86,72,81,86,89,M,SouthWestRegion,LowerThanALevel,50-60,35-55,0,90,N,0.971098
+2412967,80,77,80,72,79,F,SouthRegion,ALevelorEquivalent,80-90,35-55,0,60,N,0.971098
+2437837,67,77,69,87,72,F,NorthRegion,ALevelorEquivalent,30-40,0-35,0,60,N,0.971098
+2449878,66,60,57,55,65,F,EastMidlandsRegion,ALevelorEquivalent,30-40,0-35,0,60,N,0.971098
+2457256,60,60,85,80,65,M,SouthRegion,LowerThanALevel,80-90,35-55,0,180,N,0.971098
+2458355,88,86,95,92,92,M,LondonRegion,LowerThanALevel,80-90,35-55,0,60,N,0
+2460080,85,86,77,78,68,M,Scotland,HEQualification,90-100,More55,0,60,N,0.971098
+2479954,77,83,82,78,78,M,NorthWesternRegion,ALevelorEquivalent,40-50,0-35,0,60,N,0.971098
+2481901,82,72,83,70,72,M,Wales,LowerThanALevel,80-90,35-55,0,60,N,0.971098
+2482700,63,50,52,48,65,M,SouthRegion,LowerThanALevel,90-100,0-35,0,120,N,0.971098
+2486127,70,67,76,77,78,F,EastAnglianRegion,HEQualification,90-100,0-35,0,120,N,0.971098
+2498700,74,76,77,78,81,F,NorthWesternRegion,LowerThanALevel,40-50,0-35,0,240,N,0.971098
+2516503,82,75,82,78,80,M,SouthEastRegion,HEQualification,40-50,35-55,0,60,N,0.971098
+2518069,74,75,80,79,75,M,EastMidlandsRegion,ALevelorEquivalent,90-100,0-35,0,60,N,0.971098
+2521459,63,50,54,67,70,F,LondonRegion,LowerThanALevel,10-20,0-35,0,60,N,0.971098
+2529279,71,80,75,85,79,F,NorthWesternRegion,HEQualification,60-70,35-55,0,60,N,0.971098
+2532302,69,72,64,71,40,F,EastAnglianRegion,ALevelorEquivalent,80-90,0-35,0,60,N,0.971098
+2536991,72,72,80,82,98,M,SouthRegion,HEQualification,90-100,More55,0,60,N,0.971098
+2551220,77,54,67,63,63,F,SouthRegion,LowerThanALevel,90-100,0-35,0,60,N,0.971098
+2555340,94,75,70,84,80,F,SouthRegion,HEQualification,90-100,35-55,0,60,N,0.971098
+2557283,75,72,88,92,79,M,YorkshireRegion,HEQualification,80-90,More55,0,60,N,0.971098
+2559575,54,64,85,80,73,M,SouthWestRegion,LowerThanALevel,30-40,0-35,0,60,N,0.971098
+2562034,70,62,60,65,70,M,EastAnglianRegion,ALevelorEquivalent,70-80,0-35,0,60,N,0.971098
+2566163,87,55,65,74,78,F,SouthRegion,ALevelorEquivalent,80-90,0-35,0,60,N,0.971098
+2566592,86,57,60,70,86,F,SouthRegion,ALevelorEquivalent,90-100,35-55,0,60,N,0.971098
+2574583,66,71,75,65,77,M,YorkshireRegion,LowerThanALevel,70-80,35-55,0,60,N,0.971098
+2578995,75,84,81,78,80,F,WestMidlandsRegion,ALevelorEquivalent,10-20,0-35,0,60,Y,0.971098
+2586560,75,65,84,77,67,F,EastAnglianRegion,LowerThanALevel,80-90,35-55,0,60,N,0.971098
+2594139,87,73,79,79,62,F,SouthWestRegion,ALevelorEquivalent,50-60,0-35,0,60,N,0.971098
+2598871,66,66,78,73,80,F,EastAnglianRegion,ALevelorEquivalent,80-90,35-55,0,60,N,0.971098
+2599352,80,75,77,77,73,F,Scotland,ALevelorEquivalent,30-40,0-35,0,120,N,0.971098
+2600688,64,72,72,77,65,M,WestMidlandsRegion,ALevelorEquivalent,20-30,0-35,0,60,N,0.971098
+2606098,70,70,71,68,78,F,EastMidlandsRegion,ALevelorEquivalent,90-100,0-35,0,60,N,0.971098
+2613116,68,70,85,84,84,F,LondonRegion,LowerThanALevel,10-20,35-55,0,60,N,0.971098
+2617002,67,53,67,66,71,F,YorkshireRegion,ALevelorEquivalent,80-90,0-35,0,60,N,0.971098
+2639540,76,78,80,82,81,F,NorthWesternRegion,ALevelorEquivalent,90-100,35-55,0,60,N,0.971098
+2639641,66,59,58,70,75,M,SouthEastRegion,LowerThanALevel,30-40,35-55,0,120,N,0.971098
+2641155,78,81,79,80,78,M,EastMidlandsRegion,LowerThanALevel,50-60,35-55,0,60,N,0.971098
+2643002,49,64,59,59,25,F,SouthWestRegion,ALevelorEquivalent,80-90,35-55,0,60,N,0.971098
+2645733,87,81,83,89,73,F,SouthWestRegion,ALevelorEquivalent,40-50,0-35,0,180,N,0.971098
+2649826,75,82,85,87,88,M,EastAnglianRegion,LowerThanALevel,60-70,35-55,0,60,N,0.971098
+2650282,83,84,85,85,84,M,LondonRegion,ALevelorEquivalent,0-10,35-55,0,60,N,0
+2664024,48,58,64,68,78,M,SouthEastRegion,HEQualification,90-100,35-55,0,60,N,0.971098
+2666246,76,76,74,76,78,M,NorthWesternRegion,ALevelorEquivalent,90-100,0-35,0,60,N,0.971098
+2669816,67,68,66,50,35,M,YorkshireRegion,ALevelorEquivalent,90-100,0-35,0,60,N,0.971098
+2671132,59,69,78,69,69,M,LondonRegion,HEQualification,20-30,More55,0,60,N,0.971098
+2678643,83,80,66,62,66,F,SouthRegion,ALevelorEquivalent,80-90,0-35,0,60,N,0.971098
+2685865,74,77,83,82,77,F,EastMidlandsRegion,LowerThanALevel,30-40,0-35,0,60,N,0.971098
+2688067,70,62,63,68,76,M,EastAnglianRegion,ALevelorEquivalent,10-20,0-35,0,60,N,0.971098
+2689958,86,78,80,82,82,M,EastAnglianRegion,ALevelorEquivalent,40-50,35-55,0,60,N,0.971098
+2691206,86,85,78,90,85,F,WestMidlandsRegion,ALevelorEquivalent,50-60,0-35,0,60,N,0.971098
+2694424,89,74,80,94,60,M,EastAnglianRegion,ALevelorEquivalent,70-80,35-55,0,120,N,0.971098
+2698257,58,64,76,67,74,M,EastMidlandsRegion,LowerThanALevel,60-70,0-35,0,120,N,0.971098

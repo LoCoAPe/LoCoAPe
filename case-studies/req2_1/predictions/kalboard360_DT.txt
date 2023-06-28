@@ -1,0 +1,42 @@
+J48 pruned tree
+------------------
+
+StudentAbsenceDays = Under-7
+|   Relation = Mum
+|   |   ParentAnsweringSurvey = No
+|   |   |   gender = F
+|   |   |   |   VisITedResources <= 81: M (9.0/3.0)
+|   |   |   |   VisITedResources > 81
+|   |   |   |   |   SectionID = A
+|   |   |   |   |   |   AnnouncementsView <= 41: M (2.0)
+|   |   |   |   |   |   AnnouncementsView > 41: H (6.0)
+|   |   |   |   |   SectionID = B: H (5.0)
+|   |   |   |   |   SectionID = C: H (0.0)
+|   |   |   gender = M: M (15.0/3.0)
+|   |   ParentAnsweringSurvey = Yes: H (68.0/12.0)
+|   Relation = Father
+|   |   raisedhands <= 13
+|   |   |   gender = F: M (8.0/1.0)
+|   |   |   gender = M
+|   |   |   |   VisITedResources <= 16: L (7.0)
+|   |   |   |   VisITedResources > 16: M (2.0/1.0)
+|   |   raisedhands > 13: M (85.0/24.0)
+StudentAbsenceDays = Above-7
+|   raisedhands <= 30
+|   |   gender = F
+|   |   |   AnnouncementsView <= 15: L (6.0)
+|   |   |   AnnouncementsView > 15: M (5.0/1.0)
+|   |   gender = M: L (72.0/12.0)
+|   raisedhands > 30
+|   |   ParentAnsweringSurvey = No
+|   |   |   AnnouncementsView <= 18: L (11.0/2.0)
+|   |   |   AnnouncementsView > 18
+|   |   |   |   gender = F
+|   |   |   |   |   VisITedResources <= 44: L (2.0)
+|   |   |   |   |   VisITedResources > 44: M (4.0/1.0)
+|   |   |   |   gender = M: M (8.0)
+|   |   ParentAnsweringSurvey = Yes: M (21.0/3.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	36
